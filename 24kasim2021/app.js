@@ -74,3 +74,23 @@
 // } else {
 //   console.log("geçersiz işlem");
 // }
+
+// const number = 150;
+
+// if (number === 150) {
+//   console.log("sayı 150 ye eşittir");
+// } else {
+//   console.log("sayı 150 ye eşit değildir");
+// }
+
+// ternary operatörü
+
+// number = 150;
+// console.log(number === 150 ? "Sayi 150" : "sayı 150 değil");
+
+// number = 120;
+// console.log(number === 150 ? "Sayi 150" : "sayı 150 değil");
+
+// const number = 50;
+// if (number === 100) console.log("sayı 100");
+// else console.log("sayı 100 değil");
