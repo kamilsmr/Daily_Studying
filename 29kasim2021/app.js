@@ -62,3 +62,26 @@
 // console.log(a);
 
 // return bir anlamıda fonksiyonu sonlandıran bir yapıdır.
+
+// function square1(x) {
+//   return x * x;
+//   console.log("ne haber"); // yazmadı çünkü return fonksiyonu bitirdi erken.
+// }
+// console.log(square1(5));
+
+// function merhaba() {
+//   return "merhaba";
+// }
+// console.log(merhaba());
+
+// function expression
+// const merhaba = function (name) {
+//   console.log("merhaba " + name);
+// };
+// merhaba("kamil");
+
+// immediately invoked function expression(IIEF)
+
+// (function (name) {
+//   console.log("merhaba " + name);
+// })("kamil");
