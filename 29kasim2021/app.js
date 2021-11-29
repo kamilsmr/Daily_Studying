@@ -85,3 +85,24 @@
 // (function (name) {
 //   console.log("merhaba " + name);
 // })("kamil");
+
+// const database = {
+//   host: "localhost",
+//   add: function () {
+//     console.log("Eklendi");
+//   },
+//   get: function () {
+//     console.log("Elde Edildi");
+//   },
+//   uptade: function (id) {
+//     console.log(`Id ${id} Güncellendi`);
+//   },
+//   delete: function (id) {
+//     console.log(`Id ${id} Silindi`);
+//   },
+// };
+
+// console.log(database.host);
+// database.add();
+
+// database.delete(10);
