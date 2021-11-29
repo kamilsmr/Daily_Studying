@@ -94,3 +94,43 @@
 // const number = 50;
 // if (number === 100) console.log("sayı 100");
 // else console.log("sayı 100 değil");
+
+// const process = 2;
+
+// switch (process) {
+//   case 1:
+//     console.log("işlem 1");
+//     break;
+//   case 2:
+//     console.log("işlem 1");
+//     break;
+//   case 3:
+//     console.log("işlem 1");
+//     break;
+//   case 4:
+//     console.log("işlem 1");
+//     break;
+//   default:
+//     console.log("geçersiz işlem");
+// }
+// const process = 10;
+
+// switch (process) {
+//   case 1:
+//     console.log("işlem 1");
+//     break;
+//   case 2:
+//     console.log("işlem 1");
+//     break;
+//   case 3:
+//     console.log("işlem 1");
+//     break;
+//   case 4:
+//     console.log("işlem 1");
+//     break;
+//   default:
+//     console.log("geçersiz işlem");
+// }
+
+// break çıkıyor. switch caseden çık anlamına geliyor
+// default alttında break kullanılabilir yada kullanılmayabilir
