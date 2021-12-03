@@ -110,3 +110,53 @@
 // for (let key in user) {
 //   console.log(key, user[key]);
 // }
+
+// windows
+
+// alert("merhaba");
+
+// console.log(this);
+// console.log(this.alert("merhaba"));
+// console.log(window);
+
+// const cevap = confirm("Emin misiniz?");
+
+// console.log(cevap);
+
+// if (cevap) {
+//   console.log("Silin Gitsin");
+// } else {
+//   console.log("Silmeyin");
+// }
+
+// const cevap = confirm("Emin misiniz?");
+
+// console.log(cevap);
+
+// if (confirm("Emin misiniz?")) {
+//   console.log("Silin Gitsin");
+// } else {
+//   console.log("Silmeyin");
+// }
+
+// const cevap = prompt("2+2 = ?");
+
+// console.log(cevap);
+// console.log(typeof cevap);
+
+// if (cevap == "4") {
+//   console.log("Doğru");
+// } else {
+//   console.log("yanlış");
+// }
+
+let value;
+
+value = window;
+value = window.location;
+value = window.location.host;
+value = window.location.hostname;
+value = window.location.port;
+value = window.location.href;
+
+console.log(value);
