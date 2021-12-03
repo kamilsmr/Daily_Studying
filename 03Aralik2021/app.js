@@ -150,13 +150,30 @@
 //   console.log("yanlış");
 // }
 
-let value;
+// let value;
 
-value = window;
-value = window.location;
-value = window.location.host;
-value = window.location.hostname;
-value = window.location.port;
-value = window.location.href;
+// value = window;
+// value = window.location;
+// value = window.location.host;
+// value = window.location.hostname;
+// value = window.location.port;
+// value = window.location.href;
 
-console.log(value);
+// // window.location.reload();
+
+// if (confirm("Sayfa yenilensin mi?")) {
+//   window.location.reload();
+// } else {
+//   console.log("sayfa yenilenemedi");
+// }
+// console.log(value);
+
+// value = window.outerHeight;
+// value = winow.outerWeight;
+
+// value = window.innerHeight;
+// value = window.innerWidth;
+
+// value = window.scrollX;
+// value = window.scrollY;
+// console.log(value);
