@@ -132,3 +132,38 @@
 // value = document.forms[0].method;
 
 // console.log(value);
+
+// Elementleri Id ye göre alma
+
+let element;
+
+element = document.getElementById("todo-form");
+element = document.getElementById("tasks-title");
+
+// Element Classa göre alma
+
+element = document.getElementsByClassName("list-group-items")[0];
+
+// Elemet Taga göre seçme
+
+element = document.getElementsByTagName("div");
+
+// Query Selector - Css selector
+
+// ilk bulduğu ve tek element döner
+
+element = document.querySelector("#todo-form"); // ide göre seçme
+element = document.querySelector("#tasks-title");
+
+element = document.querySelector(".list-group-item"); // sınıfa göre seçme
+element = document.querySelector("li"); // ilk li elemanı alır
+element = document.querySelector("div"); // ilk div elemanı alır
+
+// QuerySelectorAll - Tüm elemanları seçme
+
+element = document.querySelectorAll(".list-group-Item");
+element.forEach(function (el) {
+  console.log(el);
+});
+
+console.log(element);
