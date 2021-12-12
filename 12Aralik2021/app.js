@@ -57,3 +57,30 @@
 // console.log(value1, value2, value3);
 
 // DOM
+
+// console.log(this);
+// console.log(this.document);
+// console.log(document); // windows objesi içinde olduğu için direkt çağırabiliriz.
+
+// let value;
+
+// value = document;
+// value = document.all;
+// value = document.all.length;
+// value = document.all[0];
+// value = document.all[6];
+// value = document.all[document.all.length - 1];
+
+// console.log(value);
+
+// const elements = document.all;
+// for (let i = 0; i < elements.length; i++) {
+//   console.log(elements[i]);
+// }
+
+// elements.forEach(function (element) {
+//   // hata verdi direkt forEach kullanılmaz
+//   console.log(element);
+// });
+
+// fakat arraye çevirirsek forEach kullanabiliriz.
