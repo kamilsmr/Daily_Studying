@@ -37,10 +37,47 @@
 
 // body.append(div);
 
+// const body = document.body;
+// const div = document.querySelector("div");
+// const spanHi = document.querySelector("#hi");
+// const spanBye = document.querySelector("#bye");
 
+// silmekiçin remove()
 
+// spanBye.remove();
+// eklemek için append()
 
+// div.append(spanBye);
 
+// div.remove(spanHi); // silme yöntemi 1
+// div.removeChild(spanHi) // silme 2. yöntem
+
+// get attribute ile çağırma
+
+// const body = document.body;
+// const div = document.querySelector("div");
+// const spanHi = document.querySelector("#hi");
+// const spanBye = document.querySelector("#bye");
+
+// console.log(spanHi.getAttribute("id"));
+// console.log(spanHi.getAttribute("title"));
+// console.log(spanHi.title);
+
+// attribute değiştirmek için
+
+// console.log(spanHi.setAttribute("title", "aksdkasda"));
+
+// silmek için
+
+// spanHi.removeAttribute("id");
+
+// class eklemek için
+
+// spanHi.classList.add("new-class");
+// spanHi.classList.remove("h1");
+
+// spanHi.style.color = "red";
+// spanHi.style.backgroundColor = "red";
 
 
 
