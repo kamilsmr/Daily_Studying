@@ -2,6 +2,33 @@ div#Content {
     width: 900px;
     height: 480px;
     border: 2px solid red;
-    margin:auto;
-    
+    margin:auto; 
+    display: flex;
+    /* direction: rtl; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    flex-direction: row;
+    /* flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
+    flex-wrap: wrap; */
+
+
+
+
+
+
+}
+
+div.kutu {
+    width: 200px;
+    height: 200px;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    margin: 5px;
 }
